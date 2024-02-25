@@ -1,0 +1,17 @@
+{
+    "[javascript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        },
+    },
+    "[javascriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    },
+    "[javascript][javascriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "explicit"
+        }
+    }
+}
