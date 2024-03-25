@@ -59,3 +59,15 @@ export const LabelUpload = styled.label`
     width: 1px;
   }
 `
+
+export const OfferContainer = styled.div`
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+
+  input {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+  }
+`

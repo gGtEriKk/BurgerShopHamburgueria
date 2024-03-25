@@ -9,7 +9,14 @@ import * as Yup from 'yup'
 
 import { ErrorMessage } from '../../../components'
 import api from '../../../services/api'
-import { Container, Input, Label, ButtonStyles, LabelUpload } from './styles'
+import {
+  Container,
+  Input,
+  Label,
+  ButtonStyles,
+  LabelUpload,
+  OfferContainer
+} from './styles'
 
 function NewProduct() {
   const [fileName, setFileName] = useState(null)
@@ -29,7 +36,8 @@ function NewProduct() {
       })
       .test('type', 'Carregue apenas arquivos JPEG e PNG', value => {
         return value[0]?.type === 'image/jpeg' || value[0].type === 'image/png'
-      })
+      }),
+    offer: Yup.bool()
   })
 
   const {
@@ -47,6 +55,7 @@ function NewProduct() {
     productDataFormData.append('price', data.price)
     productDataFormData.append('category_id', data.category.id)
     productDataFormData.append('file', data.file[0])
+    productDataFormData.append('offer', data.offer)
 
     await toast.promise(api.post('/products', productDataFormData), {
       pending: 'Criando novo produto...',
@@ -120,6 +129,10 @@ function NewProduct() {
             )
           }}
         ></Controller>
+        <OfferContainer>
+          <input type="checkbox" {...register('offer')} />
+          <Label>Produto em oferta?</Label>
+        </OfferContainer>
 
         <ButtonStyles>Adicionar Produto</ButtonStyles>
       </form>

@@ -54,7 +54,7 @@ function Orders() {
       order => order.status === status[statusIndex].value
     )
     setFilteredOrders(newFilteredOrders)
-  }, [orders, activeStatus])
+  }, [])
 
   function handleStatus(status) {
     if (status.id === 1) {
