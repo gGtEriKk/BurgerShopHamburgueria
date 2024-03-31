@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+# Hamburgueria CodeBurger
+
+## Descrição:
+
+### Front-end de uma aplicação de hamburgueria completa com telas de usuário admin e de usuário cliente. Na tela de usuário comum, o mesmo pode fazer os registro, login, procurar produtos, colocá-los no carrinho e efetuar a compra.
+### Na tela de usuário admin, o administrador poderá listar todos os pedidos realizados, bem como atualizar os status dos pedidos até ser feita a entrega. Logo após, poderá deletar o pedido da lista. O admin ainda pode listar todos os produtos, atualizar preço, nome, categoria, foto e se está ou não em oferta e também adicionar novo produto. Também é possível adicionar nova categoria.
+
+## Vídeos de demonstração:
+
+
+## Tecnologias utilizadas:
+
+## Bibliotecas utilizadas e suas funções:
+
+
+## Desenvolvedor:
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
