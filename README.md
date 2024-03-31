@@ -8,13 +8,55 @@
 ## Vídeos de demonstração:
 
 
+### Client session:
+<div>
+    <img width="200px" src="./src/assets/client-img/Code-burger-client-0001.jpg"/>
+    <img width="200px" src="./src/assets/client-img/Code-burger-client-0002.jpg"/>
+    <img width="200px" src="./src/assets/client-img/Code-burger-client-0003.jpg"/>
+    <img width="200px" src="./src/assets/client-img/Code-burger-client-0004.jpg"/>
+    <img width="200px" src="./src/assets/client-img/Code-burger-client-0005.jpg"/>
+    <img width="200px" src="./src/assets/client-img/Code-burger-client-0006.jpg"/>
+</div>
+
+### Admin session:
+<div>
+    <img width="200px" src="./src/assets/admin-img/Code-burger-admin-0001.png"/>
+    <img width="200px" src="./src/assets/admin-img/Code-burger-admin-0002.png"/>
+    <img width="200px" src="./src/assets/admin-img/Code-burger-admin-0003.png"/>
+    <img width="200px" src="./src/assets/admin-img/Code-burger-admin-0004.png"/>
+    <img width="200px" src="./src/assets/admin-img/Code-burger-admin-0005.png"/>
+</div>
+
+
 ## Tecnologias utilizadas:
+
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 
 ## Bibliotecas utilizadas e suas funções:
 
+##### axios: auxiliar nas requisições http;
+##### prop-types: validação dos tipos das propriedades de cada componente;
+##### react-router-dom: auxiliar nas rotas
+##### react-select: listar as categorias para escolha de cada uma de forma mais dinâmica
+##### react-toastify: ajuda o usuário a ter um feedback visual quando concluídas algumas requisições ou quando o servidor apresentar algum erro
+##### styled-components: biblioteca muito utilizada para melhor estilização de cada componente
+##### yup: para definir o formato de como cada dado será preenchido e validar cada um
 
 ## Desenvolvedor:
 
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/gGtEriKk">
+        <img src="./src/assets/perfil-gitHub.jpg" width=100px; alt="foto do perfil"><br>
+          <sub>
+            <b>Erik Gomes</b>
+          </sub>
+      </a>
+</table>
 
 ## Getting Started with Create React App
 
