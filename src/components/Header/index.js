@@ -50,10 +50,14 @@ export function Header() {
         <div style={{ height: '35px', border: '0.5px solid #bababa' }}></div>
         <img src={ProfileIcon} alt="Shopping-cart-image" />
 
-        <UserNameAndLogoutLink>
-          <UserName>Olá {userData.name}</UserName>
-          <LogoutLink onClick={() => logoutUser()}>Sair</LogoutLink>
-        </UserNameAndLogoutLink>
+        {userData?.name && (
+          <UserNameAndLogoutLink>
+            <UserName>
+              <p>Olá</p> {userData.name}
+            </UserName>
+            <LogoutLink onClick={() => logoutUser()}>Sair</LogoutLink>
+          </UserNameAndLogoutLink>
+        )}
       </ContainerIcons>
     </Container>
   )

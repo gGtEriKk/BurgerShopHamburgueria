@@ -7,12 +7,14 @@ import { HomeImg, Container } from './styles'
 
 export function Home() {
   return (
-    <Container>
-      <HomeImg src={HomeImage} alt="hamburger-image" />
+    <>
+      <Container>
+        <HomeImg src={HomeImage} alt="hamburger-image" />
 
-      <CategoryCarousel />
-      <OffersCarousel />
-    </Container>
+        <CategoryCarousel />
+        <OffersCarousel />
+      </Container>
+    </>
   )
 }
 

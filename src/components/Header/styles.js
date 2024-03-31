@@ -41,8 +41,12 @@ export const UserName = styled.p`
   display: flex;
   gap: 3px;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 700;
   color: #555555;
+
+  p {
+    font-weight: 300;
+  }
 `
 
 export const LogoutLink = styled.div`
