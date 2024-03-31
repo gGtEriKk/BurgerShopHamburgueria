@@ -51,7 +51,7 @@
   <tr>
     <td align="center">
       <a href="https://github.com/gGtEriKk">
-        <img src="./src/assets/perfil-gitHub.jpg" width=100px; alt="foto do perfil"><br>
+        <img src="./src/assets/perfil-github.jpg" width=100px; alt="foto do perfil"><br>
           <sub>
             <b>Erik Gomes</b>
           </sub>
